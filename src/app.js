@@ -15,7 +15,7 @@ routes(app);
 
 app.use(manipulador404);
 
-
+// eslint-disable-next-line no-unused-vars
 app.use(manipuladorDeErros);
 
 export default app;
